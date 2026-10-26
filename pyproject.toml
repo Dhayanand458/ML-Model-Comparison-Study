@@ -1,0 +1,21 @@
+[project]
+name = "customer-churn-classification"
+version = "0.1.0"
+description = "Compare supervised classifiers for telecom customer churn prediction."
+authors = [
+    { name = "Dhayanand M B", email = "mbdhayanand.bsc23@rvu.edu.in" },
+]
+readme = "README.md"
+requires-python = ">=3.11"
+
+[project.urls]
+Homepage = "https://github.com/dhayanand458"
+LinkedIn = "https://www.linkedin.com/in/m-b-dhayanand"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
